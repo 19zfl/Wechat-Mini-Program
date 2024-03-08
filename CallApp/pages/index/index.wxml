@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="bar" wx:for="{{contactList}}" wx:key="id">
+        <image src="/images/avatar.png"></image>
+        <view class="detail">
+            <text>{{item.name}}</text>
+            <text>{{item.tel}}</text>
+        </view>
+        <image src="/images/call.png" bind:tap="callTel" data-tel="{{item.tel}}"></image>
+    </view>
+</view>

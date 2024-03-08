@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view>
+    <image src="{{img_url}}"></image>
+    <text>{{nick_name}}</text>
+    <button bind:tap="getInfo" type="primary">{{btn_text}}</button>
+</view>

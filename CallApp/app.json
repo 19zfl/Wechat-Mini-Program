@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/call/call"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "通讯录",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "通讯录",
+      "iconPath": "/images/tabbar/tongxunlu.png",
+      "selectedIconPath": "/images/tabbar/tongxunlu_blue.png"
+    }, {
+      "pagePath": "pages/call/call",
+      "text": "拨号",
+      "iconPath": "/images/tabbar/bohaopan.png",
+      "selectedIconPath": "/images/tabbar/bohaopan_blue.png"
+    }]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
