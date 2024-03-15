@@ -5,7 +5,33 @@ Page({
    * 页面的初始数据
    */
   data: {
+    num: [1, 2, 3, 4, 5, 6, 7, 8, 9, "*", 0, "#"],
+    tel: ''
+  },
 
+  onInput:function(e) {
+    let num = e.currentTarget.dataset.num
+    let newTel = this.data.tel + num
+    this.setData({
+        tel:newTel
+    })
+  },
+
+  call:function() {
+    let tel = this.data.tel
+    wx.makePhoneCall({
+      phoneNumber: tel,
+    })
+  },
+  
+  delete:function() {
+    let tel = this.data.tel
+    if (tel.length > 0) {
+        tel = tel.substring(0, tel.length -1)
+    }
+    this.setData({
+        tel:tel
+    })
   },
 
   /**

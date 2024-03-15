@@ -1,1 +1,11 @@
 <!--pages/call/call.wxml-->
+<view class="container">
+    <text>{{tel}}</text>
+    <view class="numBox">
+        <button class="num" wx:for="{{num}}" wx:key="item" bind:tap="onInput" data-num="{{item}}">{{item}}</button>
+    </view>
+    <view class="buttonBox">
+        <image class="callImg" src="/images/call.png" bind:tap="call"></image>
+        <image class="deleteImg" src="/images/delete.png" bind:tap="delete"></image>
+    </view>
+</view>

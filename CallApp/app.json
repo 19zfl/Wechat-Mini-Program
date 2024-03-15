@@ -5,7 +5,7 @@
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "通讯录",
+    "navigationBarTitleText": "电话",
     "navigationBarBackgroundColor": "#ffffff"
   },
   "tabBar": {
@@ -21,8 +21,6 @@
       "selectedIconPath": "/images/tabbar/bohaopan_blue.png"
     }]
   },
-  "style": "v2",
-  "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
 }
