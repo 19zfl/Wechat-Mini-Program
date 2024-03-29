@@ -1,0 +1,13 @@
+<!--pages/result/result.wxml-->
+<view class="container flexV alignCenter">
+    <scroll-view scroll-y>
+        <view class="detail flexV alignCenter">
+            <text>结果解析</text>
+            <view class="card" wx:for="{{rsBank}}" wx:key="id">
+                <text>{{index + 1}}.{{item.question}}</text>
+                <view>{{item.analysis}}</view>
+            </view>
+            <button bind:tap="gotoIndex">返回首页</button>
+        </view>
+    </scroll-view>
+</view>

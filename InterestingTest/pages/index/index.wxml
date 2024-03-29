@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container flexV alignCenter">
+    <view class="card flexV alignCenter">
+        <image src="/images/banner.png"></image>
+        <text>趣味心理测试</text>
+        <button bind:tap="gotoQuiz" class="colorBtn">开始测试</button>
+    </view>
+</view>

@@ -1,0 +1,13 @@
+/* pages/quiz/quiz.wxss */
+.radio {
+    margin: 10rpx;
+}
+.quizNum {
+    border-left: 20rpx solid #f8ce3a;
+    padding: 10rpx;
+    margin-bottom: 10rpx;
+}
+button {
+    margin: 20rpx;
+    background-color: #f8ce3a;
+}

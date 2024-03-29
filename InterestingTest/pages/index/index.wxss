@@ -1,0 +1,5 @@
+/**index.wxss**/
+.card text {
+    font-size: 50rpx;
+    margin: 40rpx 0;
+}

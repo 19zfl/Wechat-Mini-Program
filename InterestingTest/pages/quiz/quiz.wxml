@@ -1,0 +1,15 @@
+<!--pages/quiz/quiz.wxml-->
+<view class="container flexV alignCenter">
+    <scroll-view scroll-y>
+        <form bindsubmit="onSubmit" class="flexV alignCenter">
+            <view class="card flexV" wx:key="id" wx:for="{{qBank}}" wx:for-item="one">
+                <view class="quizNum">第{{index + 1}}题</view>
+                <view>{{one.question}}</view>
+                <radio-group class="flexV" name="quiz{{index + 1}}">
+                    <radio color="#f8ce3a" wx:for="{{one.options}}" wx:key="*this" value="{{item.value}}">{{item.text}}</radio>
+                </radio-group>
+            </view>
+            <button class="btn" form-type="submit">查看解析结果</button>
+        </form>
+    </scroll-view>
+</view>

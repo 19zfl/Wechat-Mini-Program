@@ -1,0 +1,29 @@
+/**app.wxss**/
+/* 全局样式 */
+.flexV {
+    display: flex;
+    flex-direction: column;
+}
+.flexH {
+    display: flex;
+    flex-direction: row;
+}
+.alignCenter {
+    align-items: center;
+}
+.card {
+    width: 650rpx;
+    background-color: white;
+    border-radius: 20rpx;
+    padding: 30rpx;
+    margin-top: 30rpx;
+    line-height: 60rpx;
+}
+.colorBtn {
+    color: black;
+    background-color: #f8ce3a;
+    margin: 30rpx;
+}
+.container {
+    background-color: #eee;
+}

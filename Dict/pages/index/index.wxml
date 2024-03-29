@@ -1,0 +1,9 @@
+<view class="container">
+    <view class="title">
+        欢迎使用成语小词典
+    </view>
+    <form bind:tap="sereach">
+        <input name="idom" placeholder="请输入一个成语"/>
+        <button form-type="submit">查找</button>
+    </form>
+</view>
