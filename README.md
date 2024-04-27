@@ -5,3 +5,4 @@
 - CallApp：简单的通讯录和拨号demo
 - InterestingTest：趣味心理测试
 - Dict：成语小词典
+- MusicPlayer：音乐播放器

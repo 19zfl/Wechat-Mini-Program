@@ -1,0 +1,17 @@
+// 格式化时间显示
+function formatTime(value) {
+  // 参数默认原单位是秒，这里先获取分，floor去尾取整 
+  var m = Math.floor(value / 60)
+  // 获取剩余秒
+  var s = Math.floor(value % 60)
+  // 格式化分和秒，显示2位数字
+  if (m < 10) m = '0' + m
+  if (s < 10) s = '0' + s
+  // 输出格式化后的结果
+  return m + ':' + s
+}
+
+// 导出公共函数和数据
+module.exports = {
+  formatTime: formatTime
+}

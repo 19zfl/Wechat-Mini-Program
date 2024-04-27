@@ -1,0 +1,24 @@
+<wxs src="/utils/filtes.wxs" module="filtes"></wxs>
+<view class="container">
+	<view class="title">
+		<text>{{song.title}}({{song.singer}})</text>
+	</view>
+	<view class="playBox">
+		<image class="needle {{needleStatus}}" src="/images/player/needle.png" mode="widthFix"></image>
+		<view class="discBox">
+			<image class="disc-border" src="/images/player/disc.png"></image>
+			<image class="disc-cover {{discAnimation}}" src="{{song.poster}}"></image>
+		</view>
+	</view>
+	<view class="progress">
+	<view>{{filtes.formatTime(currentTime)}}</view>
+	<slider backgroundColor="#fff" min="0" max="{{duration}}" block-size="10" bindchange="changeTime" activeColor="#fff" value="{{currentTime}}" ></slider>
+	<view>{{filtes.formatTime(duration)}}</view>
+	</view>
+	<view class="btnBox">
+	<image bindtap="pre" class="small" src="/images/player/btn_prev.png"></image>
+	<image bindtap="playBgm" wx:if="{{ !isPlaying }}"class="big" src="/images/player/btn_play.png"></image>
+	<image bindtap="pauseBgm" wx:else=""class="big" src="/images/player/btn_pause.png"></image>
+	<image bindtap="next" class="small" src="/images/player/btn_next.png"></image>
+	</view>
+</view>
