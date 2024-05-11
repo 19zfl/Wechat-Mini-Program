@@ -1,0 +1,17 @@
+<view class="todoBox fexV">
+	<view class="bar fexH alignCenter" wx:for="{{todoList}}" bindtap="done" data-id="{{index}}" bindlongpress="quxiao" data-type="todo">
+		<checkbox></checkbox>
+		<text>{{item}}</text>
+	</view>
+</view>
+<view class="completeBox fexV">
+<view class="title fexH alignCenter">
+	<text class="left">已完成</text>
+	<text class="right">2</text>
+</view>
+	<view class="bar fexH alignCenter" wx:for="{{completeList}}" bindtap="undo" data-id="{{index}}" bindlongpress="quxiao" data-type="complete">
+		<checkbox></checkbox>
+		<text>{{item}}</text>
+	</view>
+</view>
+<view class="btn" bindtap="add">+</view>

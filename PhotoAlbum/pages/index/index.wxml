@@ -1,0 +1,10 @@
+<view class="top">
+	<view class="title">个人相册</view>
+	<view class="titlee">好友可见·3张图片</view>
+</view>
+<view class="photoBox">
+	<view class="photo" wx:for="{{ photoList }}" wx:key="*this">
+		<image src="http://localhost/{{item}}" bindtap="preview" data-url="http://localhost/{{item}}"></image>
+	</view>
+</view>
+<view class="upload" bindtap="uploadPhoto">+</view>

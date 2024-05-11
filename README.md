@@ -6,3 +6,5 @@
 - InterestingTest：趣味心理测试
 - Dict：成语小词典
 - MusicPlayer：音乐播放器
+- PhotoAlbum：相册
+- ShortList：简易清单

@@ -1,0 +1,11 @@
+.fexH {
+	display: flex;
+	flex-direction: row;
+}
+.fexV {
+	display: flex;
+	flex-direction: column;
+}
+.alignCenter {
+	align-items: center;
+}

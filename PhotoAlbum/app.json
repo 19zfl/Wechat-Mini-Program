@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "zfl个人相册",
+    "navigationBarBackgroundColor": "#002fa7"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

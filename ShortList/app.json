@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "极简清单",
+    "navigationBarBackgroundColor": "#b8860b"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

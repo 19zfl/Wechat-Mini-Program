@@ -1,0 +1,27 @@
+.todoBox,.completeBox {
+	margin: 20rpx;
+	padding: 15rpx;
+	border-radius: 20rpx;
+}
+.title {
+	margin: 20rpx;
+}
+.left {
+	flex-grow: 1;
+}
+.bar {
+	padding: 10rpx;
+	margin: 15rpx;
+}
+.btn {
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+	background-color: #b8860b;
+	position: fixed;
+	right: 60rpx;
+	bottom: 60rpx;
+	line-height: 90rpx;
+	font-size: 60rpx;
+	text-align: center;
+}
